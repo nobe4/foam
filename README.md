@@ -56,7 +56,7 @@ have to manually restart.
 ## Examples:
 
 | title | url | selector | timeout |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | Reddit new posts every 10 seconds| `https://www.reddit.com/r/all/new/`| `div.entry > p.title > a` | 10 |
 | Stackoverflow new question every minute| `https://www.reddit.com/r/all/new/`| `div.summary > h3 > a` | 10 |
 
