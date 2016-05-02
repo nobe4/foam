@@ -23,7 +23,7 @@ The extension has the following workflow:
 The extension is currently under development, so it has no official release on
 the Chrome store. To manually install it:
 
-1. Download the [zip of the extension](https://github.com/nobe4/foam)
+1. Download the [zip of the extension](https://github.com/nobe4/foam/archive/master.zip)
 2. Extract it on your computer
 3. Go to `chrome://extensions/`
 4. Check that you are in `Developer mode`
@@ -55,7 +55,7 @@ have to manually restart.
 
 ## Examples:
 
-| title | url | selector | timout |
+| title | url | selector | timeout |
 | -- | -- | -- | -- |
 | Reddit new posts every 10 seconds| `https://www.reddit.com/r/all/new/`| `div.entry > p.title > a` | 10 |
 | Stackoverflow new question every minute| `https://www.reddit.com/r/all/new/`| `div.summary > h3 > a` | 10 |
@@ -69,8 +69,8 @@ only the first element matching the selector will be chosen.
 # Question, Bug, Improvement
 
 I would be glad to have any feedback on the extension. Whether positive or
-negative. Considere openning [an issue](https://github.com/nobe4/foam) or [a
-pull request](https://github.com/nobe4/foam).
+negative. Considere openning [an issue](https://github.com/nobe4/foam/issues/new) or [a
+pull request](https://github.com/nobe4/foam/compare).
 
 # License
 
