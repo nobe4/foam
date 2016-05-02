@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <h1> Configuration </h1>
+      <div id="status-container">stopped</div>
+    </div>
+    <div id="config-container"></div>
+    <div id="error-container"></div>
+    <div id="buttons-container">
+      <div id="config-buttons">
+        <span>Config:</span>
+        <button id="save">Save</button>
+        <button id="new">New</button>
+        <button id="reload">Reload</button>
+      </div>
+      <div id="runtime-buttons">
+        <span>Runtime:</span>
+        <button id="stop">Stop</button>
+        <button id="start">Start</button>
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+  </div>
+  <script src="../common/storage.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

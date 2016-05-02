@@ -1,0 +1,28 @@
+{
+  "name": "Foam",
+  "version": "0.2.0",
+  "manifest_version": 3,
+  "description": "Fear of another missing",
+  "homepage_url": "https://github.com/nobe4/foam",
+  "permissions": [
+    "webRequest",
+    "storage",
+    "notifications",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon38.png"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "src/background/notify.js",
+      "src/common/storage.js",
+      "src/background/parser.js",
+      "src/background/background.js"
+    ]
+  },
+  "options_page": "src/options/options.html"
+}
